@@ -1,0 +1,30 @@
+{
+  "name": "promise-prototype-finally",
+  "version": "1.0.0",
+  "description": "Polyfill for Promise.prototype.finally",
+  "keywords": [
+    "Promise",
+    "promises",
+    "finally",
+    "cleanup"
+  ],
+  "license": "WTFPL",
+  "author": "Gabriel Montes <gabriel@utoctadel.com.ar>",
+  "main": "index.js",
+  "repository": "gabmontes/promise-prototype-finally",
+  "scripts": {
+    "test": "mocha"
+  },
+  "devDependencies": {
+    "chai": "^4.0.2",
+    "chai-as-promised": "^7.0.0",
+    "mocha": "^3.4.2",
+    "standard": "^10.0.2"
+  },
+  "engines": {
+    "node": ">=0.12"
+  },
+  "standard": {
+    "globals": [ "describe", "it" ]
+  }
+}
